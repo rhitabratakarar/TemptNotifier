@@ -1,0 +1,24 @@
+{
+  "name": "temptnotifier",
+  "version": "1.0.0",
+  "description": "A small project that will notify you if the your system temperature crosses a certain threshold.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rhitabratakarar/TemptNotifier.git"
+  },
+  "author": "rhitabratakarar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rhitabratakarar/TemptNotifier/issues"
+  },
+  "homepage": "https://github.com/rhitabratakarar/TemptNotifier#readme",
+  "dependencies": {
+    "node-notifier": "^10.0.1",
+    "systeminformation": "^5.12.7"
+  }
+}
